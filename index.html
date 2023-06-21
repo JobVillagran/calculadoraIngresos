@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Ingresos</title>
+    <link rel="stylesheet" href="/styles.css">
+
+</head>
+
+<body>
+
+    <section>
+        <div class="container">
+            <div class="wrapper">
+
+                <h1>Calculadora de Ingresos</h1>
+
+                <div class="calculator">
+                    <div id="incomeFields">
+                        <div class="income-field">
+                            <input type="number" placeholder="Ingreso en USD">
+                        </div>
+                    </div>
+                    <div class="buttonsController">
+                        <button onclick="addIncomeField()" id="addIncomeField">Agregar Ingreso</button>
+                        <button onclick="removeIncomeField()" id="removeIncomeField">Remover Ingreso</button>
+
+                    </div>
+
+                    <div class="calcButton">
+                        <button onclick="calculateIncome()">Calcular</button>
+                        <p id="totalIncome"></p>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+    
+    <footer>
+        <span>Desarrollado por Job Villagran</span>
+    </footer>
+
+
+</body>
+
+<script src="/script.js"></script>
+
+</html>
