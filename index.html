@@ -15,22 +15,22 @@
         <div class="container">
             <div class="wrapper">
 
-                <h1>Calculadora de Ingresos</h1>
+                <h1>Ingresos</h1>
 
                 <div class="calculator">
                     <div id="incomeFields">
                         <div class="income-field">
-                            <input type="number" placeholder="Ingreso en USD">
+                            <input type="number" placeholder="Ingreso">
                         </div>
                     </div>
                     <div class="buttonsController">
-                        <button onclick="addIncomeField()" id="addIncomeField">Agregar Ingreso</button>
-                        <button onclick="removeIncomeField()" id="removeIncomeField">Remover Ingreso</button>
+                        <button onclick="addIncomeField()" id="addIncomeField">+ Agregar Ingreso</button>
+                        <button onclick="removeIncomeField()" id="removeIncomeField">- Remover Ingreso</button>
 
                     </div>
 
                     <div class="calcButton">
-                        <button onclick="calculateIncome()">Calcular</button>
+                        <button onclick="calculateIncome()" id="calculateTotal">Calcular</button>
                         <p id="totalIncome"></p>
                     </div>
 
@@ -39,7 +39,7 @@
     </section>
     
     <footer>
-        <span>Desarrollado por Job Villagran</span>
+        <span><a href="https://jobdev.tech/" target="_blank">Desarrollado por Job Villagran</a></span>
     </footer>
 
 

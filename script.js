@@ -27,5 +27,5 @@ function addIncomeField() {
       }
     }
 
-    document.getElementById('totalIncome').textContent = 'Ingreso total: ' + totalIncome.toFixed(2);
+    document.getElementById('totalIncome').textContent = 'Ingreso total: $' + totalIncome.toFixed(2);
   }
